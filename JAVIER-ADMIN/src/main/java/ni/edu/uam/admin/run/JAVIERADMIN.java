@@ -1,4 +1,4 @@
-package ni.edu.uam.JAVIER-ADMIN.run;
+package ni.edu.uam.admin.run;
 
 import org.openxava.util.*;
 
