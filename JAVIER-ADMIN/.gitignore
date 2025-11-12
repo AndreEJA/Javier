@@ -1,0 +1,82 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+.kotlin
+
+### IntelliJ IDEA ###
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+*.iws
+*.iml
+*.ipr
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+# Generic Java
+*.class
+*.log
+hs_err_pid*
+.mtj.tmp/
+
+# Maven
+pom.xml.tag
+pom.xml.next
+pom.xml.bak
+pom.xml.releaseBackup
+
+# Gradle (if used)
+.gradle/
+
+# Eclipse
+.settings/
+.metadata/
+
+# IntelliJ IDEA
+.idea/
+out/
+
+# NetBeans
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# OpenXava specific (if any generated files exist outside of standard build dirs)
+# The 'web' directory is often a source directory in OpenXava, but some generated
+# files/directories may need ignoring.
+# For example, if 'naviox.css' is copied from an Addons project on deploy, you might
+# want to ensure you don't track local modifications to a generated file.
+# Generally, anything that can be regenerated from source should be ignored.
+
+# OS-specific files
+Thumbs.db
+
+/temp
+/data
