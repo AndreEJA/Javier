@@ -6,10 +6,15 @@ import org.hibernate.annotations.GenericGenerator;
 import org.openxava.annotations.DescriptionsList;
 import org.openxava.annotations.Hidden;
 import org.openxava.annotations.ListProperties;
+import org.openxava.annotations.View;
 
 import javax.persistence.*;
 import java.util.Collection;
 
+@View(members =
+        "evento;" +
+                "detalles { facultad, puntuacion }"
+)
 @Entity
 @Getter @Setter
 public class Voto {
@@ -32,6 +37,6 @@ public class Voto {
     private Evento evento;
 
     @ElementCollection
-    @ListProperties("facultad.nombre, evento.descripcion, puntuacion")
+    @ListProperties("facultad.nombre, puntuacion")
     Collection<VotoDetalle> detalles;
 }
