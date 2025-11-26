@@ -2,7 +2,7 @@
 
 ## Descripción del Proyecto
 
-Este repositorio contiene el código para el **Sistema JAVIER**, una solución integral diseñada para gestionar y calificar eventos o concursos (como un reinado de belleza) en un entorno universitario (`ni.edu.uam`).
+Este repositorio contiene el código para el **Sistema JAVIER**, una solución integral diseñada para gestionar y calificar eventos o concursos (como un reinado de belleza) en el entorno universitario de UAM.
 
 El sistema se compone de un panel de **Administración** para la gestión de datos, y una **Plataforma Web de Votación** para que los jueces califiquen y consulten resultados.
 
@@ -12,7 +12,7 @@ El sistema se compone de un panel de **Administración** para la gestión de dat
 * Definición de **Categorías** de calificación con un **Peso** (porcentaje) para el cálculo del puntaje final.
 * Mecanismo de **Votaciones** por **Jueces** (un voto único por candidata), con calificaciones detalladas por categoría (valor 0-100).
 
-## ⚙️ Arquitectura y Tecnologías
+## Arquitectura y Tecnologías
 
 El proyecto se divide en tres módulos con distintas responsabilidades:
 
