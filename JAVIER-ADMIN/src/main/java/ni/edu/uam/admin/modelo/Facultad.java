@@ -20,7 +20,7 @@ public class Facultad {
     @Column(length=32)
     private String oid;
 
-    @Column(length=50)
+    @Column(length=120)
     private String nombre;
 
     @Column(length=10)

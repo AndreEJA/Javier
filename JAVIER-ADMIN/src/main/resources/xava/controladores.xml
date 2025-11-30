@@ -20,5 +20,23 @@
                 clase="acciones.CrearProfesor"/>        
     </controlador>
     -->
+    <controlador nombre="Evento">
+        <hereda-de controlador="Typical"/>
+        <accion nombre="print reports" icono="printer" modo="list"
+                clase="ni.edu.uam.report.actions.PrintEventReportAction"/>
+    </controlador>
+
+    <controlador nombre="Candidato">
+        <hereda-de controlador="Typical"/>
+        <accion nombre="print reports" icono="printer" modo="list"
+                clase="ni.edu.uam.report.actions.PrintCandidatoReportAction"/>
+    </controlador>
+
+    <controlador nombre="Voto">
+        <hereda-de controlador="Typical"/>
+        <accion nombre="print reports" icono="printer" modo="list"
+                clase="ni.edu.uam.report.actions.PrintVotoReportAction"/>
+    </controlador>
+
     
 </controladores>
